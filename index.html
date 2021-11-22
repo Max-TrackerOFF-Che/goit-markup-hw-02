@@ -4,68 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Студия</title>
-</head>
-
-<body>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+<body class="page">
     <!-- Шапка страницы -->
     <header>
-        <nav>
+        <nav class="navigation">
             <a href="/">WebStudio</a>
             <!-- Навигация в шапке -->
-            <ul>
-                <li><a href="/">Студия</a></li>
-                <li><a href="/">Портфолио</a></li>
-                <li><a href="/">Контакты</a></li>
+            <ul class="nav-list">
+                <li><a class="nav-link current" href="/">Студия</a></li>
+                <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="nav-link" href="./contacts.html">Контакты</a></li>
             </ul>
         </nav>
         <!-- Контакты -->
-        <ul>
-            <li><a href="/">info@devstudio.com</a></li>
-            <li><a href="/">+380961111111</a></li>
+        <ul class="nav-contacts">
+            <li class="contacts-link"><a href="/">info@devstudio.com</a></li>
+            <li class="contacts-link"><a href="/">+380961111111</a></li>
         </ul>
     </header>
     <main>
         <!-- Блок под рекламу/видео -->
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+        <section class="hero">
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <button type="button" class="button">Заказать услугу</button>
         </section>
         <!-- Перечисление четырёх особенностей -->
-        <section>
-            <h2> Что мы делаем </h2>
-            <ul>
-                <li>
-                    <h3>Внимание к деталям</h3>
+        <section class="section">
+            <h2 class="section-header"> Чем мы занимаемся </h2>
+            <ul class="features-list">
+                <li class="features-item">
+                    <h3 class="header-three">Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>
-                    <h3>Пунктуальность</h3>
+                <li class="features-item">
+                    <h3 class="header-three">Пунктуальность</h3>
                     <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
-                    <h3>Планирование</h3>
+                <li class="features-item">
+                    <h3 class="header-three">Планирование</h3>
                     <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
-                    <h3>Современные технологии</h3>
+                <li class="features-item">
+                    <h3 class="header-three">Современные технологии</h3>
                     <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
         <!-- Чем мы занимаемся -->
-        <section>
-            <h2 class="what-we-do-title">Чем мы занимаемся</h2>
-            <ul>
-                <li><img src="./images/box-one.jpg" alt="Изображение 1"></li>
-                <li><img src="./images/box-two.jpg" alt="Изображение 2"></li>
-                <li><img src="./images/box-three.jpg" alt="Изображение 3"></li>
+        <section class="section">
+            <!-- <h2>Чем мы занимаемся</h2> -->
+            <ul class="img-list">
+                <li><img class="img" src="./images/box-one.jpg" alt="Изображение 1"></li>
+                <li><img class="img" src="./images/box-two.jpg" alt="Изображение 2"></li>
+                <li><img class="img" src="./images/box-three.jpg" alt="Изображение 3"></li>
             </ul>
         </section>
         <!-- Наша команда -->
-        <section>
-            <h2 class="team-title">Наша команда</h2>
+        <section class="section">
+            <h2 class="section-title">Наша команда</h2>
             <ul>
                 <li>
                     <img src="./images/img-one.jpg" alt="Product Designer" width="270" height="260">
@@ -91,7 +89,7 @@
         </section>
     </main>
     <!-- нижняя панель контаков -->
-    <footer>
+    <footer class="footer">
         <a href="/">WebStudio</a>
         <address>
             <ul>

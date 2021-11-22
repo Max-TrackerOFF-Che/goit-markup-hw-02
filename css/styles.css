@@ -1,0 +1,117 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --hover-effect: #2196f3;
+  --button-background: #f5f4fa;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #fff;
+  font-family: 'Oleo Script', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Навигация в шапке */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.nav-list,
+.nav-contacts,
+.button-list,
+.projects-list,
+.footer-list {
+  list-style: none;
+}
+
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-list .nav-link:hover,
+.nav-list .nav-link:focus {
+  color: var(--hover-effect);
+}
+.nav-list .nav-link.current {
+  color: var(--hover-effect);
+}
+/* Контакты в шапке */
+.contacts-link a {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+.contacts-link a:hover,
+.contacts-link a:focus {
+  color: var(--hover-effect);
+}
+/* Кнопки перехода между проектами */
+.button-list {
+  display: flex;
+}
+.button {
+  background-color: var(--button-background);
+  color: inherit;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 6px 22px;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--hover-effect);
+  color: white;
+  cursor: pointer;
+}
+/* Блок проэктов */
+.projects-list {
+  display: inline;
+}
+
+.project-item h2 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-item p {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/* Блок контактов внизу */
+.footer-link a {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  font-style: normal; /* здесь пришлось перебить тег адрес */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+} /* Блок под рекламу */
+
+.footer-link a:hover,
+.footer-link a:focus {
+  color: var(--hover-effect);
+}
