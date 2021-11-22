@@ -16,11 +16,15 @@ body {
 /* Навигация в шапке */
 .logo {
   font-family: Raleway, sans-serif;
+  color: inherit;
   font-size: 26px;
   line-height: 1.2;
   font-weight: bold;
   text-decoration: none;
   letter-spacing: 0.03em;
+}
+.logo span {
+  color: #2196f3;
 }
 .nav-list,
 .nav-contacts,
