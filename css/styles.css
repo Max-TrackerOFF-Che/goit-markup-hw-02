@@ -155,7 +155,8 @@ ul {
 .project-link {
   text-decoration: none;
 }
-.project-item .header-two {
+.header-two {
+  color: var(--primary-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
